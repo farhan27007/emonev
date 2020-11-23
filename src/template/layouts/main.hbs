@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+{{> include/_copyright-header}}
+<html lang="en">
+	<head>
+		{{> include/_head}}
+
+		{{!-- Optional: page related CSS --}}
+		{{#>head-block}}{{/head-block}}
+	</head>
+	<body class="mod-bg-1 {{preemptiveclass}}">
+		
+		{{!-- save-settings-script --}}
+		{{> include/_scripts-loading-saving}}
+		
+		<!-- BEGIN Page Wrapper -->
+		<div class="page-wrapper">
+
+			<div class="page-inner">
+
+				{{#if appSidebar}}
+				<!-- BEGIN Left Aside -->
+				{{> include/_left-panel }}
+				<!-- END Left Aside -->
+				{{/if}}
+
+				<div class="page-content-wrapper">
+					
+					{{#if appHeader}}
+					<!-- BEGIN Page Header -->
+					{{> include/_page-header }}
+					<!-- END Page Header -->
+					{{/if}}
+
+					<!-- BEGIN Page Content -->
+					<!-- the #js-page-content id is needed for some plugins to initialize -->
+					<main id="js-page-content" role="main" class="page-content">
+						{{#if preemptiveclass}}
+							<!-- Page heading removed for composed layout -->
+						{{else}}
+							{{> include/_page-breadcrumb }}
+							{{> include/_page-heading }}
+						{{/if}}
+						{{#>content-block}}{{/content-block}}
+					</main>
+					{{> include/_page-content-overlay }}
+					<!-- END Page Content -->
+
+					{{#if appFooter}}
+					<!-- BEGIN Page Footer -->
+					{{> include/_page-footer }}
+					<!-- END Page Footer -->
+					{{/if}}
+
+					<!-- BEGIN Shortcuts -->
+					{{> include/_shortcut-modal }}
+					<!-- END Shortcuts -->
+
+				</div>
+
+			</div>
+
+		</div>
+		<!-- END Page Wrapper -->
+		
+		{{#if shortcutMenu}}
+		<!-- BEGIN Quick Menu -->
+		{{> include/_shortcut-menu }}
+		<!-- END Quick Menu -->
+		{{/if}}
+		
+		{{#if chatInterface}}
+		<!-- BEGIN Messenger -->
+		{{> include/_shortcut-messenger }}
+		<!-- END Messenger -->
+		{{/if}}
+
+		{{#if layoutSettings}}
+		<!-- BEGIN Page Settings -->
+		{{> include/_page-settings }}
+		<!-- END Page Settings -->
+		{{/if}}
+
+		{{!-- Google Analytics  code if GOOGLE_ANALYTICS_ID id available --}}
+		{{> include/_google_analytics }}
+		
+		{{> include/_scripts-base-plugins}}
+		{{#>scripts-block}}
+			{{!-- Custom scripts per page can be added. --}}
+		{{/scripts-block}}
+	</body>
+</html>
