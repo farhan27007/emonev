@@ -83,10 +83,10 @@
                             <div id="panel-1" class="panel">
                                 <div class="panel-hdr">
                                     <h2>
-                                     Data realisasi bulan&nbsp;<b>Januari</b>
-                                 </h2>
-                             </div>
-                             <div class="panel-container show">
+                                       Data realisasi bulan&nbsp;<b>Januari</b>
+                                   </h2>
+                               </div>
+                               <div class="panel-container show">
                                 <div class="panel-content bg-subtlelight-fade">
                                     <div id="js-checkbox-toggles" class="d-flex mb-3">
                                         <div class="custom-control custom-switch mr-2">
@@ -112,101 +112,21 @@
             <!-- this overlay is activated only when mobile menu is triggered -->
             <div class="page-content-overlay" data-action="toggle" data-class="mobile-nav-on"></div> <!-- END Page Content -->
             <!-- BEGIN Page Footer -->
-            <footer class="page-footer" role="contentinfo">
-                <div class="d-flex align-items-center flex-1 text-muted">
-                    <span class="hidden-md-down fw-700">2019 © Developed by&nbsp;<a href='#' class='text-primary fw-500' title='gotbootstrap.com' target='_blank'>Blondev team</a></span>
-                </div>
-            </footer>
+            <?php include 'template/footer.php'; ?>
             <!-- END Page Footer -->
-            <!-- BEGIN Shortcuts -->
-            <!-- modal shortcut -->
-            <div class="modal fade modal-backdrop-transparent" id="modal-shortcut" tabindex="-1" role="dialog" aria-labelledby="modal-shortcut" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-top modal-transparent" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <ul class="app-list w-auto h-auto p-0 text-left">
-                                <li>
-                                    <a href="intel_introduction.html" class="app-list-item text-white border-0 m-0">
-                                        <div class="icon-stack">
-                                            <i class="base base-7 icon-stack-3x opacity-100 color-primary-500 "></i>
-                                            <i class="base base-7 icon-stack-2x opacity-100 color-primary-300 "></i>
-                                            <i class="fal fa-home icon-stack-1x opacity-100 color-white"></i>
-                                        </div>
-                                        <span class="app-list-name">
-                                            Home
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="page_inbox_general.html" class="app-list-item text-white border-0 m-0">
-                                        <div class="icon-stack">
-                                            <i class="base base-7 icon-stack-3x opacity-100 color-success-500 "></i>
-                                            <i class="base base-7 icon-stack-2x opacity-100 color-success-300 "></i>
-                                            <i class="ni ni-envelope icon-stack-1x text-white"></i>
-                                        </div>
-                                        <span class="app-list-name">
-                                            Inbox
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="intel_introduction.html" class="app-list-item text-white border-0 m-0">
-                                        <div class="icon-stack">
-                                            <i class="base base-7 icon-stack-2x opacity-100 color-primary-300 "></i>
-                                            <i class="fal fa-plus icon-stack-1x opacity-100 color-white"></i>
-                                        </div>
-                                        <span class="app-list-name">
-                                            Add More
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- END Shortcuts -->
-        </div>
-    </div>
-</div>
-<!-- END Page Wrapper -->
-<!-- BEGIN Quick Menu -->
-<!-- to add more items, please make sure to change the variable '$menu-items: number;' in your _page-components-shortcut.scss -->
-<nav class="shortcut-menu d-none d-sm-block">
-    <input type="checkbox" class="menu-open" name="menu-open" id="menu_open" />
-    <label for="menu_open" class="menu-open-button ">
-        <span class="app-shortcut-icon d-block"></span>
-    </label>
-    <a href="#" class="menu-item btn" data-toggle="tooltip" data-placement="left" title="Scroll Top">
-        <i class="fal fa-arrow-up"></i>
-    </a>
-    <a href="page_login-alt.html" class="menu-item btn" data-toggle="tooltip" data-placement="left" title="Logout">
-        <i class="fal fa-sign-out"></i>
-    </a>
-    <a href="#" class="menu-item btn" data-action="app-fullscreen" data-toggle="tooltip" data-placement="left" title="Full Screen">
-        <i class="fal fa-expand"></i>
-    </a>
-    <a href="#" class="menu-item btn" data-action="app-print" data-toggle="tooltip" data-placement="left" title="Print page">
-        <i class="fal fa-print"></i>
-    </a>
-    <a href="#" class="menu-item btn" data-action="app-voice" data-toggle="tooltip" data-placement="left" title="Voice command">
-        <i class="fal fa-microphone"></i>
-    </a>
-</nav>
-<!-- END Quick Menu -->
+            <?php include 'template/shortcut.php'; ?>
 
-<!-- BEGIN Page Settings -->
+            <script src="dist/js/vendors.bundle.js"></script>
+            <script src="dist/js/app.bundle.js"></script>
+            <script type="text/javascript">
+                /* Activate smart panels */
+                $('#js-page-content').smartPanel();
 
-<script src="dist/js/vendors.bundle.js"></script>
-<script src="dist/js/app.bundle.js"></script>
-<script type="text/javascript">
-    /* Activate smart panels */
-    $('#js-page-content').smartPanel();
+            </script>
 
-</script>
-
-<script src="dist/js/statistics/peity/peity.bundle.js"></script>
-<script src="dist/js/statistics/flot/flot.bundle.js"></script>
-<script src="dist/js/statistics/easypiechart/easypiechart.bundle.js"></script>
-<script src="dist/js/set-chart.js"></script>
-</body>
-</html>
+            <script src="dist/js/statistics/peity/peity.bundle.js"></script>
+            <script src="dist/js/statistics/flot/flot.bundle.js"></script>
+            <script src="dist/js/statistics/easypiechart/easypiechart.bundle.js"></script>
+            <script src="dist/js/set-chart.js"></script>
+        </body>
+        </html>

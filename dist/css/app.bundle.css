@@ -7720,3 +7720,11 @@ body:not(.mobile-detected).modal-open .modal::-webkit-scrollbar-thumb:vertical:h
 ========================================================================== */
 
 /*# sourceMappingURL=app.bundle.css.map */
+
+
+/* new */
+.head-bg-table {
+  background: #FFDB8E !important;
+
+}
+/* new */
