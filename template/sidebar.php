@@ -35,33 +35,72 @@
 
         <ul id="js-nav-menu" class="nav-menu">
             <li>
-             <a href="admin.php" title="Dashboard" data-filter-tags="Dashboard">
-                    <i class="fal fa-home"></i>
-                    <span class="nav-link-text" data-i18n="nav.application_intel">Dashboard</span>
-                </a>
-            </li>
+               <a href="admin.php" title="Dashboard" data-filter-tags="Dashboard">
+                <i class="fal fa-home"></i>
+                <span class="nav-link-text" data-i18n="nav.application_intel">Dashboard</span>
+            </a>
+        </li>
 
-            <li class="active">
-                <a href="#" title="Manajemen user" data-filter-tags="Manajemen user">
-                    <i class="fal fa-user-alt"></i>
-                    <span class="nav-link-text" data-i18n="Manajemen user">Manajemen User</span>
-                </a>
-                <ul>
-                    <li>
-                        <a href="daftar-user.php" title="daftar-user" data-filter-tags="daftar-user">
-                            <span class="nav-link-text" data-i18n="daftar-user">Daftar user</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tambah-user.php" title="tambah-user" data-filter-tags="tambah-user-user">
-                            <span class="nav-link-text" data-i18n="tambah-user">Tambah user</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <div class="filter-message js-filter-message bg-success-600"></div>
-    </nav>
-    <!-- END PRIMARY NAVIGATION -->
+        <li>
+            <a href="#" title="Manajemen user" data-filter-tags="Manajemen user">
+                <i class="fal fa-user-alt"></i>
+                <span class="nav-link-text" data-i18n="Manajemen user">Manajemen User</span>
+            </a>
+            <ul>
+                <li>
+                    <a href="daftar-user.php" title="daftar-user" data-filter-tags="daftar-user">
+                        <span class="nav-link-text" data-i18n="daftar-user">Daftar user</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tambah-user.php" title="tambah-user" data-filter-tags="tambah-user-user">
+                        <span class="nav-link-text" data-i18n="tambah-user">Tambah user</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#" title="Manajemen user" data-filter-tags="Manajemen user">
+                <i class="fal fa-archive"></i>
+                <span class="nav-link-text" data-i18n="Manajemen user">Data Kegiatan</span>
+            </a>
+            <ul>
+                <li>
+                    <a href="daftar-kegiatan.php" title="daftar-user" data-filter-tags="daftar-user">
+                        <span class="nav-link-text" data-i18n="daftar-user">Daftar kegiatan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tambah-kegiatan.php" title="tambah-user" data-filter-tags="tambah-user-user">
+                        <span class="nav-link-text" data-i18n="tambah-user">Tambah kegiatan</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#" title="Manajemen user" data-filter-tags="Manajemen user">
+                <i class="fal fa-file-alt"></i>
+                <span class="nav-link-text" data-i18n="Manajemen user">Data Sub Kegiatan</span>
+            </a>
+            <ul>
+                <li>
+                    <a href="daftar-sub-kegiatan.php" title="daftar-user" data-filter-tags="daftar-user">
+                        <span class="nav-link-text" data-i18n="daftar-user">Daftar sub kegiatan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tambah-sub-kegiatan.php" title="tambah-user" data-filter-tags="tambah-user-user">
+                        <span class="nav-link-text" data-i18n="tambah-user">Tambah sub kegiatan</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+    <div class="filter-message js-filter-message bg-success-600"></div>
+</nav>
+<!-- END PRIMARY NAVIGATION -->
 
 </aside>
