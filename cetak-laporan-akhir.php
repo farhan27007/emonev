@@ -12,7 +12,6 @@
         <meta name="msapplication-tap-highlight" content="no">
         <!-- base css -->
 
-        <link rel="stylesheet" media="screen, print" href="dist/css/app.bundle.css">
     </head>
     <body>
         <table cellspacing="0" border="0" class="backup-table-print mt-4">
@@ -357,3 +356,10 @@
         /* Activate smart panels */
         $('#js-page-content').smartPanel();
     </script>
+
+    <style>
+    .backup-table-print{ font-size:x-small;}
+
+    .table-style-print {
+      border: 1px solid #000; }
+    </style>
