@@ -98,6 +98,25 @@
             </ul>
         </li>
 
+        <li>
+            <a href="#" title="Manajemen user" data-filter-tags="Manajemen user">
+                <i class="fal fa-folder"></i>
+                <span class="nav-link-text" data-i18n="Manajemen user">Laporan Realisasi</span>
+            </a>
+            <ul>
+                <li>
+                    <a href="daftar-lap-realisasi.php" title="daftar-user" data-filter-tags="daftar-user">
+                        <span class="nav-link-text" data-i18n="daftar-user">Daftar laporan realisasi</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tambah-lap-realisasi.php" title="tambah-user" data-filter-tags="tambah-user-user">
+                        <span class="nav-link-text" data-i18n="tambah-user">Tambah laporan realisasi</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
     </ul>
     <div class="filter-message js-filter-message bg-success-600"></div>
 </nav>
