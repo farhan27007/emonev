@@ -14,7 +14,62 @@
 
     </head>
     <body>
-        <table cellspacing="0" border="0" class="backup-table-print mt-4">
+
+        <!-- top-table -->
+        <table cellspacing="0" border="0" class="backup-table-print">
+            <colgroup width="30"></colgroup>
+            <colgroup span="2" width="13"></colgroup>
+
+            <tr>
+                <td class="table-style-print" rowspan=2 height="169" align="center" valign=top>No</td>
+                <td class="table-style-print" colspan=3 rowspan=2 align="center" valign=top>Kode</td>
+                <td class="table-style-print" rowspan=2 align="center" valign=top>Program</td>
+                <td class="table-style-print" rowspan=2 align="center" valign=top>Indikator Program</td>
+                <td class="table-style-print" colspan=3 align="center" valign=top>Target Renstra SKPD pada tahun 2016 s/d 2021</td>
+                <td class="table-style-print" colspan=3 align="center" valign=top>Realisasi Capaian Kinerja Renstra SKPD s/d Tahun Lalu (2019)</td>
+                <td class="table-style-print" colspan=3 align="center" valign=top>Target Kinerja dan Anggaran Renja SKPD Tahun 2020</td>
+                <td class="table-style-print" colspan=3 align="center" valign=top>Realisasi Capaian Kinerja dan Anggaran Renja SKPD tahun 2020</td>
+                <td class="table-style-print" colspan=3 align="center" valign=top>Tingkat Capaian Kinerja</td>
+                <td class="table-style-print" colspan=3 align="center" valign=top>Realisasi Kinerja dan anggaran SKPD s/d akhir tahun 2020</td>
+                <td class="table-style-print" colspan=3 align="center" valign=top>Tingkat capaian Kinerja dan Realisasi Anggaran Resntra</td>
+                <td class="table-style-print" colspan=2 rowspan=2 align="center" valign=top>Uni SKPD penangnung jawab</td>
+                <td class="table-style-print" align="center" valign=top>ket</td>
+            </tr>
+            <tr>
+                <td class="table-style-print" align="left" valign=top>K</td>
+                <td class="table-style-print" colspan=2 align="center" valign=top>Rp. (000)</td>
+                <td class="table-style-print" align="left" valign=top>K</td>
+                <td class="table-style-print" colspan=2 align="center" valign=top sdval="0">Rp0</td>
+                <td class="table-style-print" align="left" valign=top>K</td>
+                <td class="table-style-print" colspan=2 align="center" valign=top>Rp. (00)</td>
+                <td class="table-style-print" align="left" valign=top>K</td>
+                <td class="table-style-print" align="left" valign=top><br></td>
+                <td class="table-style-print" align="left" valign=top>Rp. (000)</td>
+                <td class="table-style-print" align="left" valign=top>K</td>
+                <td class="table-style-print" colspan=2 align="center" valign=top>Rp. (000)</td>
+                <td class="table-style-print" align="left" valign=top>K</td>
+                <td class="table-style-print" colspan=2 align="center" valign=top>Rp. (00)</td>
+                <td class="table-style-print" align="left" valign=top>K</td>
+                <td class="table-style-print" colspan=2 align="center" valign=top>Rp. (000)</td>
+                <td class="table-style-print" align="left" valign=top><br></td>
+            </tr>
+        </table>
+        <!-- top-table -->
+
+        <!-- middle-table -->
+        <br>
+        <table>
+            <tr>
+                <td>Sosialisasi ketahanan pangan</td>
+                <td> : </td>
+                <td>text disini</td>
+            </tr>
+        </table>
+        <br>
+        <!-- middle-table -->
+
+        <!-- bottom table -->
+        <table cellspacing="0" border="0" class="backup-table-print">
             <colgroup span="41" width="64"></colgroup>
             <tr>
                 <td class="table-style-print" rowspan=3 height="60" align="center" valign=middle bgcolor="#EEECE1">
@@ -345,6 +400,7 @@
                 <td class="table-style-print" align="left" valign=middle><br></td>
             </tr>
         </table>
+        <!-- bottom table -->
     </body>
     </html>
 
@@ -362,4 +418,4 @@
 
     .table-style-print {
       border: 1px solid #000; }
-    </style>
+  </style>
