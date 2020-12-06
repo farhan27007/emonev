@@ -116,9 +116,14 @@
                 </li>
             </ul>
         </li>
-
-    </ul>
-    <div class="filter-message js-filter-message bg-success-600"></div>
+        <li>
+           <a href="progres-kegiatan.php" title="Dashboard" data-filter-tags="Dashboard">
+            <i class="fal fa-chart-bar"></i>
+            <span class="nav-link-text" data-i18n="nav.application_intel">Progress kegiatan</span>
+        </a>
+    </li>
+</ul>
+<div class="filter-message js-filter-message bg-success-600"></div>
 </nav>
 <!-- END PRIMARY NAVIGATION -->
 
