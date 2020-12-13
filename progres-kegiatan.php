@@ -49,53 +49,57 @@
                 </div>
                 <div class="panel-container show">
                   <div class="panel-content">
-                    <div class="row"> 
 
+                    <?php for ($i=0; $i < 2; $i++) { ?>
                       <!-- loop -->
-                      <div class="col-lg-3 mb-3">
-                        <h3>Kegiatan 1</h3>
+                      <div class="row mt-2 mb-5"> 
+
+                        <div class="col-lg-3 mb-3">
+                          <h3 class="text text-primary">Pelayanan administrasi perkantoran</h3>
+                        </div>
+                        <div class="col-lg-9">
+
+                          <div class="mb-3">
+                            <label for="">Realisasi pencapaian kinerja dan anggaran Renja SKPD Tahun 2020</label>
+                            <div class="progress progress-lg mt-1">
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="">Realisasi pencapaian kinerja dan anggaran Renja SKPD Tahun 2020</label>
+                            <div class="progress progress-lg mt-1">
+                              <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                          </div>
+
+                        </div>
                       </div>
-                      <div class="col-lg-9">
-                        <div class="progress progress-lg mt-1">
-                         <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
-                       </div>
-                     </div>
-                     <!-- loop  -->
+                      <!-- loop  -->
+                    <?php } ?>
 
-                     <!-- loop -->
-                     <div class="col-lg-3 mb-3">
-                      <h3>Kegiatan 2</h3>
-                    </div>
-                    <div class="col-lg-9">
-                      <div class="progress progress-lg mt-1">
-                       <div class="progress-bar bg-danger" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
-                     </div>
-                   </div>
-                   <!-- loop  -->
+                  </div>
+                </div>
+              </main>
+              <!-- this overlay is activated only when mobile menu is triggered -->
+              <div class="page-content-overlay" data-action="toggle" data-class="mobile-nav-on"></div> <!-- END Page Content -->
+              <!-- BEGIN Page Footer -->
+              <?php include 'template/footer.php'; ?>
+              <!-- END Page Footer -->
+              <?php include 'template/shortcut.php'; ?>
 
-                 </div>
-               </div>
-             </div>
-           </main>
-           <!-- this overlay is activated only when mobile menu is triggered -->
-           <div class="page-content-overlay" data-action="toggle" data-class="mobile-nav-on"></div> <!-- END Page Content -->
-           <!-- BEGIN Page Footer -->
-           <?php include 'template/footer.php'; ?>
-           <!-- END Page Footer -->
-           <?php include 'template/shortcut.php'; ?>
+              <script src="dist/js/vendors.bundle.js"></script>
+              <script src="dist/js/app.bundle.js"></script>
+              <script type="text/javascript">
+                /* Activate smart panels */
+                $('#js-page-content').smartPanel();
 
-           <script src="dist/js/vendors.bundle.js"></script>
-           <script src="dist/js/app.bundle.js"></script>
-           <script type="text/javascript">
-            /* Activate smart panels */
-            $('#js-page-content').smartPanel();
+              </script>
 
-          </script>
-
-          <script src="dist/js/statistics/peity/peity.bundle.js"></script>
-          <script src="dist/js/statistics/flot/flot.bundle.js"></script>
-          <script src="dist/js/statistics/easypiechart/easypiechart.bundle.js"></script>
-          <script src="dist/js/notifications/sweetalert2/sweetalert2.bundle.js"></script>
-          <script src="dist/js/set-sweetalert2.js"></script>
-        </body>
-        </html>
+              <script src="dist/js/statistics/peity/peity.bundle.js"></script>
+              <script src="dist/js/statistics/flot/flot.bundle.js"></script>
+              <script src="dist/js/statistics/easypiechart/easypiechart.bundle.js"></script>
+              <script src="dist/js/notifications/sweetalert2/sweetalert2.bundle.js"></script>
+              <script src="dist/js/set-sweetalert2.js"></script>
+            </body>
+            </html>
