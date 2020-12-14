@@ -60,11 +60,13 @@
 	<div class="container mt-125 pt-5">
 		<div class="col-5 float-right pl-0 text-center">
 			<h3>Lampung Selatan, 02 desember 2020</h3>
-			<h4 class="text-uppercase">Pemerintah kalianda</h4>
-			<h4 class="mb-1 text-uppercase mt-125">Nama</h4>
+			<h4 class="text-uppercase font-weight-bold mt-3">dievaluasi</h4>
+			<h4 class="text-uppercase">kepala bappeda</h4>
+			<h4 class="text-uppercase">kabupaten lampung selatan</h4>
+			<h4 class="mb-1 text-uppercase mt-125">Drs. WAHIDIN AMIN, M.Si.</h4>
 			<div class="border-bottom"></div>
-			<h4 class="mt-2 text-uppercase">Jabatan</h4>
-			<h5 class="text-uppercase">NIP.0283293</h5>
+			<h4 class="mt-2 text-uppercase">Pembina</h4>
+			<h5 class="text-uppercase">NIP.  19741215 1995 1 003</h5>
 		</div>
 	</div>
 
