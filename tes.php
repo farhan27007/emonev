@@ -32,7 +32,7 @@
 			<div class="bb-1 mt-1 w-100"></div>
 			<div class="bb-3 mt-2 w-100"></div>
 
-			<table class="table table-bordered mt-4 pb-5">
+			<table class="table table-bordered mt-4">
 				<thead>
 					<tr align="center">
 						<th>Kode Indikator</th>
@@ -57,23 +57,13 @@
 		</div>	
 	</div>
 
-	<div class="container mt-125 pt-5">
-		<div class="col-5 float-right pl-0 text-center">
-			<h3>Lampung Selatan, 02 desember 2020</h3>
-			<h4 class="text-uppercase">Pemerintah kalianda</h4>
-			<h4 class="mb-1 text-uppercase mt-125">Nama</h4>
-			<div class="border-bottom"></div>
-			<h4 class="mt-2 text-uppercase">Jabatan</h4>
-			<h5 class="text-uppercase">NIP.0283293</h5>
-		</div>
-	</div>
+	
 
 </body>
 </html>
 
 <script src="dist/js/vendors.bundle.js"></script>
 <script src="dist/js/app.bundle.js"></script>
-<script type="text/javascript" src="dist/js/set-print-page.js"></script>
 
 <script type="text/javascript">
 	/* Activate smart panels */
@@ -97,9 +87,6 @@
 	}
 	.bb-3 {
 		border-bottom: 3px solid #000;
-	}
-	.mt-125 {
-		margin-top: 125px;
 	}
 }
 </style>
