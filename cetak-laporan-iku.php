@@ -58,14 +58,26 @@
 	</div>
 
 	<div class="container mt-125 pt-5">
-		<div class="col-5 float-right pl-0 text-center">
-			<h3>Lampung Selatan, 02 desember 2020</h3>
-			<h4 class="text-uppercase font-weight-bold mt-3">dievaluasi</h4>
-			<h4 class="text-uppercase">kepala bappeda</h4>
-			<h4 class="text-uppercase">kabupaten lampung selatan</h4>
-			<h4 class="mb-1 text-uppercase mt-125">Drs. WAHIDIN AMIN, M.Si.</h4>
+		
+		<div class="col-4 float-right text-center">
+			<h4>Kalianda, 07 oktober 2020</h4>
+			<h5 class="text-uppercase font-weight-bold mt-3"><b>DISUSUN</b></h5>
+			<h5 class="text-uppercase">KEPALA DINAS KETAHANAN PANGAN</h5>
+			<h5 class="text-uppercase">KABUPATEN LAMPUNG SELATAN</h5>
+			<h5 class="mb-1 text-uppercase mt-125">Ir. YANSEN MULIA, MP.</h5>
 			<div class="border-bottom"></div>
-			<h4 class="mt-2 text-uppercase">Pembina</h4>
+			<h5 class="mt-2 text-uppercase">Pembina Utama Muda</h5>
+			<h5 class="text-uppercase">NIP.  19640928 198903 1 005</h5>
+		</div>
+
+		<div class="col-4 float-right pl-0 text-center">
+			<h4>Lampung Selatan, 02 desember 2020</h4>
+			<h5 class="text-uppercase mt-3"><b>DIEVALUASI<b></h5>
+			<h5 class="text-uppercase">KEPALA BAPPEDA</h5>
+			<h5 class="text-uppercase">KABUPATEN LAMPUNG SELATAN</h5>
+			<h5 class="mb-1 text-uppercase mt-125">Drs. WAHIDIN AMIN, M.Si.</h5>
+			<div class="border-bottom"></div>
+			<h5 class="mt-2 text-uppercase">Pembina</h5>
 			<h5 class="text-uppercase">NIP.  19741215 1995 1 003</h5>
 		</div>
 	</div>
