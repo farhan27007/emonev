@@ -52,10 +52,6 @@
             </form>
         </div>
     </div>
-    <video poster="dist/img/backgrounds/clouds.png" id="bgvid" playsinline autoplay muted loop>
-        <source src="dist/media/video/cc.webm" type="video/webm">
-            <source src="dist/media/video/cc.mp4" type="video/mp4">
-            </video>
 
             <script src="dist/js/vendors.bundle.js"></script>
             <script src="dist/js/app.bundle.js"></script>
